@@ -1,30 +1,17 @@
 package com.javalec.strategyEx;
 
+
 public class StandardRobot extends Robot {
-	
+
 	public StandardRobot() {
 		// TODO Auto-generated constructor stub
 	}
 
 	@Override
-	public void actionFly() {
+	public void shape() {
 		// TODO Auto-generated method stub
-		System.out.println("날 수 없습니다");
-
-	}
-	
-	@Override
-	public void actionMissile() {
-		// TODO Auto-generated method stub
-		System.out.println("미사일을 쏠 수 있습니다");
-
-	}
-	
-	@Override
-	public void actionSword() {
-		// TODO Auto-generated method stub
-		System.out.println("목검을 쓸 수 있습니다");
-
+		System.out.println("StandardRobot 입니다. 외형은 팔, 다리, 몸통, 머리가 있습니다");
+		
 	}
 
 
