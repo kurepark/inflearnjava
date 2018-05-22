@@ -5,7 +5,7 @@ public class ThreadTest implements Runnable {
 	int testNum = 0;
 	
 	@Override
-	public void run() {
+	public synchronized void run() {//synchronized키워드 추가 이렇게 되면 A실행이 끝난 후에 B가 실행이 된다.
 		// TODO Auto-generated method stub
 		
 
